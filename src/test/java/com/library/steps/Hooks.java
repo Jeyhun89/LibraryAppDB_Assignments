@@ -41,7 +41,6 @@ public class Hooks {
     public void setUpDB(){
        DB_Util.createConnection();
 
-
     }
 
     @After("@db")
